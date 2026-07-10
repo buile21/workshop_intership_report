@@ -15,7 +15,7 @@ The **idp-api-payments** function applies a Filter Expression directly on Dynamo
 4. **Runtime**: Select the **Python 3.12** environment.
 5. **Permissions**: Choose **Use an existing role** and assign the **idp-lambda-ai-role**.
 
-![Create Get Payments Function](/static/images/5-Workshop/5.5-Serverless-Lambda/get-payments.png)
+![Create Get Payments Function](/images/5-Workshop/5.5-Serverless-Lambda/get-payments.png)
 
 6. Click **Create function** to complete the initial setup.
 

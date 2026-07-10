@@ -18,8 +18,8 @@ Bảng này lưu trữ dữ liệu cuối cùng sau khi được AI bóc tách.
 4. **Table settings**: Chọn **Customize settings**.
 5. **Read/write capacity settings**: Chọn **On-demand** (Quan trọng để tối ưu chi phí).
 
-![InvoicesData](/static/images/5-Workshop/5.3-Storage-Database/dynamo-invoicesdata-1.png)
-![InvoicesData](/static/images/5-Workshop/5.3-Storage-Database/dynamo-invoicesdata-2.png)
+![InvoicesData](/images/5-Workshop/5.3-Storage-Database/dynamo-invoicesdata-1.png)
+![InvoicesData](/images/5-Workshop/5.3-Storage-Database/dynamo-invoicesdata-2.png)
 6. Bấm **Create table**.
 
 #### Bảng 2: InvoicePayments
@@ -29,8 +29,8 @@ Bảng này theo dõi trạng thái thanh toán của từng hóa đơn.
 3. **Partition key**: Nhập **invoiceId** (Kiểu dữ liệu: **String**).
 4. **Table settings**: Chọn **Customize settings** -> **On-demand**.
 
-![InvoicePayments](/static/images/5-Workshop/5.3-Storage-Database/dynamo-invoicespayments-1.png)
-![InvoicePayments](/static/images/5-Workshop/5.3-Storage-Database/dynamo-invoicespayments-2.png)
+![InvoicePayments](/images/5-Workshop/5.3-Storage-Database/dynamo-invoicespayments-1.png)
+![InvoicePayments](/images/5-Workshop/5.3-Storage-Database/dynamo-invoicespayments-2.png)
 5. Bấm **Create table**.
 
 #### Bảng 3: UserBudgets
@@ -48,8 +48,8 @@ Bảng này lưu các quy tắc danh mục chi tiêu tự định nghĩa của n
 3. **Partition key**: Nhập **userEmail** (Kiểu dữ liệu: **String**).
 4. **Table settings**: Chọn **Customize settings** -> **On-demand**.
 
-![UserCategories](/static/images/5-Workshop/5.3-Storage-Database/dynamo-usercategories-1.png)
-![UserCategories](/static/images/5-Workshop/5.3-Storage-Database/dynamo-usercategories-2.png)
+![UserCategories](/images/5-Workshop/5.3-Storage-Database/dynamo-usercategories-1.png)
+![UserCategories](/images/5-Workshop/5.3-Storage-Database/dynamo-usercategories-2.png)
 5. Bấm **Create table**.
 
 ---
@@ -57,4 +57,4 @@ Bảng này lưu các quy tắc danh mục chi tiêu tự định nghĩa của n
 #### Xác nhận kết quả
 Hãy đợi một lúc cho đến khi trạng thái (Status) của cả 4 bảng đều chuyển thành **Active** trước khi sang phần tiếp theo. Danh sách bảng DynamoDB của bạn sẽ hiển thị đầy đủ như hình dưới đây:
 
-![All Tables Active](/static/images/5-Workshop/5.3-Storage-Database/dynamo-all-table.png)
+![All Tables Active](/images/5-Workshop/5.3-Storage-Database/dynamo-all-table.png)

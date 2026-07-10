@@ -9,7 +9,7 @@ pre : " <b> 5.8.2. </b> "
 The heart of our Frontend application is the Dashboard. Here, the system connects to your API Gateway endpoints (`/invoices`, `/budget`, `/categories`, `/payments`) to render statistical charts using Recharts and manage invoice history.
 
 #### Dashboard Interface
-![Dashboard Interface](/static/images/5-Workshop/5.8-Frontend-React/dashboard.png)
+![Dashboard Interface](/images/5-Workshop/5.8-Frontend-React/dashboard.png)
 #### Dashboard Core (src/components/Dashboard.jsx)
 This component handles budget calculations, spending limit alerts, debt filtering, and exporting data to CSV files.
 

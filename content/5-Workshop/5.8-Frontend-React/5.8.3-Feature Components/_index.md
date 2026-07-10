@@ -9,7 +9,7 @@ pre : " <b> 5.8.3. </b> "
 To support the Dashboard, we have two critical components that allow users to interact deeply with their data.
 
 #### Category Manager Interface
-![Category Manager Interface](/static/images/5-Workshop/5.8-Frontend-React/category.png)
+![Category Manager Interface](/images/5-Workshop/5.8-Frontend-React/category.png)
 
 #### 1. Category Manager (src/components/CategoryManager.jsx)
 Allows users to define custom expense categories (e.g., Fuel, Entertainment) and seamlessly sync them with DynamoDB.

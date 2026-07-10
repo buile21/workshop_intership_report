@@ -29,11 +29,11 @@ pre: " <b> 1.4. </b> "
 * Practically experienced the Amazon RDS initialization process, clearly recognizing the difference in wait time and infrastructure management compared to the "ready-to-use" Serverless nature of DynamoDB.
 
 ---
-![DynamoDB Table Creation](/static/images/1-Worklog/1.4-Week4/week4-1.png)
+![DynamoDB Table Creation](/images/1-Worklog/1.4-Week4/week4-1.png)
 <p align="center"><i>Figure 1: The <b>fcaj-idp-metadata</b> Amazon DynamoDB table was successfully created with the Capacity mode configured to On-demand.</i></p>
 
-![DynamoDB Explore Items](/static/images/1-Worklog/1.4-Week4/week4-2.png)
+![DynamoDB Explore Items](/images/1-Worklog/1.4-Week4/week4-2.png)
 <p align="center"><i>Figure 2: The Explore items interface showing sample JSON formatted records (items) successfully inserted into the DynamoDB table.</i></p>
 
-![Amazon RDS Dashboard](/static/images/1-Worklog/1.4-Week4/week4-3.png)
+![Amazon RDS Dashboard](/images/1-Worklog/1.4-Week4/week4-3.png)
 <p align="center"><i>Figure 3: The Amazon RDS interface displaying a MySQL database in the Available state, ready to connect.</i></p>

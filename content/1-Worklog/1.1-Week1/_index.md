@@ -31,11 +31,11 @@ pre: " <b> 1.1. </b> "
 * Became more proficient in using AWS Documentation for reference when configuring services.
 
 ---
-![AWS CLI Configuration](/static/images/1-Worklog/1.1-Week1/week1-1.png)
+![AWS CLI Configuration](/images/1-Worklog/1.1-Week1/week1-1.png)
 <p align="center"><i>Figure 1: Successfully verified AWS CLI configuration on the local machine using the <b>aws sts get-caller-identity</b> command.</i></p>
 
-![EC2 Dashboard](/static/images/1-Worklog/1.1-Week1/week1-2.png)
+![EC2 Dashboard](/images/1-Worklog/1.1-Week1/week1-2.png)
 <p align="center"><i>Figure 2: EC2 virtual server successfully created and operating (Running status) on the AWS Management Console.</i></p>
 
-![SSH Terminal](/static/images/1-Worklog/1.1-Week1/week1-3.png)
+![SSH Terminal](/images/1-Worklog/1.1-Week1/week1-3.png)
 <p align="center"><i>Figure 3: Successfully connected via SSH into the EC2 instance from the local terminal.</i></p>

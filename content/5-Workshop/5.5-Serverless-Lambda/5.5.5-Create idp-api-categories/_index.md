@@ -15,7 +15,7 @@ The **idp-api-categories** function scans the entire invoice data table and perf
 4. **Runtime**: Use **Python 3.12**.
 5. **Permissions**: Select **Use an existing role** and apply **idp-lambda-ai-role**.
 
-![Create Get Categories Function](/static/images/5-Workshop/5.5-Serverless-Lambda/get-categories.png)
+![Create Get Categories Function](/images/5-Workshop/5.5-Serverless-Lambda/get-categories.png)
 
 6. Click **Create function**.
 

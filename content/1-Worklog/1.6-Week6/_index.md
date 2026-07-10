@@ -30,11 +30,11 @@ pre: " <b> 1.6. </b> "
 * Understood how to break down a monolithic application into small, compact microservices functions, smoothly orchestrating them with Step Functions to avoid nested Lambda invocations (Anti-pattern).
 
 ---
-![AWS Lambda Function](/static/images/1-Worklog/1.6-Week6/week6-1.png)
+![AWS Lambda Function](/images/1-Worklog/1.6-Week6/week6-1.png)
 <p align="center"><i>Figure 1: The management interface of the <b>fcaj-idp-hello-function</b> on AWS Lambda along with the source code ready to be executed.</i></p>
 
-![API Gateway Integration](/static/images/1-Worklog/1.6-Week6/week6-2.png)
+![API Gateway Integration](/images/1-Worklog/1.6-Week6/week6-2.png)
 <p align="center"><i>Figure 2: Successful integration configuration between Amazon API Gateway (GET method) and AWS Lambda to form a complete API endpoint.</i></p>
 
-![Step Functions Workflow](/static/images/1-Worklog/1.6-Week6/week6-3.png)
+![Step Functions Workflow](/images/1-Worklog/1.6-Week6/week6-3.png)
 <p align="center"><i>Figure 3: Visual Workflow chart of a State Machine simulating the document processing workflow on AWS Step Functions.</i></p>

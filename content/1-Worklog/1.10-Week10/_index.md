@@ -27,26 +27,26 @@ pre: " <b> 1.10. </b> "
 * Ensured the principle of Least Privilege with the IAM Role, leaving the infrastructure fully prepared for integration with the AI engine next week.
 
 ---
-![Block Public Access S3](/static/images/1-Worklog/1.10-Week10/week10-1.png)
+![Block Public Access S3](/images/1-Worklog/1.10-Week10/week10-1.png)
 <p align="center"><i>Figure 1: Configuring "Block all public access" on the S3 Bucket to ensure absolute security for input invoice documents.</i></p>
 
-![Block Public Access S3](/static/images/1-Worklog/1.10-Week10/week10-2.png)
+![Block Public Access S3](/images/1-Worklog/1.10-Week10/week10-2.png)
 <p align="center"><i>Figure 2: Configuring "Block all public access" on the S3 Bucket to ensure absolute security for input invoice documents.</i></p>
 
-![SQS Access Policy](/static/images/1-Worklog/1.10-Week10/week10-3.png)
+![SQS Access Policy](/images/1-Worklog/1.10-Week10/week10-3.png)
 <p align="center"><i>Figure 3: Configuring the Access policy to allow Amazon SQS to receive trigger messages directly from Amazon S3.</i></p>
 
-![SQS Access Policy](/static/images/1-Worklog/1.10-Week10/week10-4.png)
+![SQS Access Policy](/images/1-Worklog/1.10-Week10/week10-4.png)
 <p align="center"><i>Figure 4: Configuring the Access policy to allow Amazon SQS to receive trigger messages directly from Amazon S3.</i></p>
 
-![S3 Event Notification](/static/images/1-Worklog/1.10-Week10/week10-5.png)
+![S3 Event Notification](/images/1-Worklog/1.10-Week10/week10-5.png)
 <p align="center"><i>Figure 5: Setting up the Event Notification (SendToSQS) to automatically capture file upload events and route them to the SQS queue.</i></p>
 
-![S3 Event Notification](/static/images/1-Worklog/1.10-Week10/week10-6.png)
+![S3 Event Notification](/images/1-Worklog/1.10-Week10/week10-6.png)
 <p align="center"><i>Figure 6: Setting up the Event Notification (SendToSQS) to automatically capture file upload events and route them to the SQS queue.</i></p>
 
-![IAM Role Permissions](/static/images/1-Worklog/1.10-Week10/week10-7.png)
+![IAM Role Permissions](/images/1-Worklog/1.10-Week10/week10-7.png)
 <p align="center"><i>Figure 7: Initializing the IAM Role with specialized permission policies (S3, DynamoDB, Textract, SQS) in preparation for the AI document processing engine.</i></p>
 
-![IAM Role Permissions](/static/images/1-Worklog/1.10-Week10/week10-8.png)
+![IAM Role Permissions](/images/1-Worklog/1.10-Week10/week10-8.png)
 <p align="center"><i>Figure 8: Initializing the IAM Role with specialized permission policies (S3, DynamoDB, Textract, SQS) in preparation for the AI document processing engine.</i></p>

@@ -29,11 +29,11 @@ pre: " <b> 1.5. </b> "
 * Rèn luyện tư duy bảo mật khắt khe (Zero Trust) thông qua việc áp dụng các điều kiện Policy nâng cao trong AWS IAM.
 
 ---
-![AWS KMS Key Creation](/static/images/1-Worklog/1.5-Week5/week5-1.png)
+![AWS KMS Key Creation](/images/1-Worklog/1.5-Week5/week5-1.png)
 <p align="center"><i>Hình 1: Khóa mã hóa bảo mật Customer Managed Key (CMK) <b>fcaj-idp-kms-key</b> được tạo thành công trên giao diện AWS KMS.</i></p>
 
-![S3 Default Encryption](/static/images/1-Worklog/1.5-Week5/week5-2.png)
+![S3 Default Encryption](/images/1-Worklog/1.5-Week5/week5-2.png)
 <p align="center"><i>Hình 2: Cấu hình Default Encryption của S3 Bucket được thiết lập thành công, bắt buộc sử dụng khóa KMS vừa tạo để mã hóa tài liệu.</i></p>
 
-![Cognito Hosted UI Login](/static/images/1-Worklog/1.5-Week5/week5-3.png)
+![Cognito Hosted UI Login](/images/1-Worklog/1.5-Week5/week5-3.png)
 <p align="center"><i>Hình 3: Giao diện đăng nhập web (Hosted UI) do Amazon Cognito tự động sinh ra phục vụ cho việc xác thực người dùng của User Pool.</i></p>

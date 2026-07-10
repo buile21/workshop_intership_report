@@ -29,11 +29,11 @@ pre: " <b> 1.4. </b> "
 * Trải nghiệm thực tế quá trình khởi tạo Amazon RDS, nhận thức rõ sự khác biệt về thời gian chờ và quản lý hạ tầng so với tính chất Serverless "dùng ngay lập tức" của DynamoDB.
 
 ---
-![DynamoDB Table Creation](/static/images/1-Worklog/1.4-Week4/week4-1.png)
+![DynamoDB Table Creation](/images/1-Worklog/1.4-Week4/week4-1.png)
 <p align="center"><i>Hình 1: Bảng Amazon DynamoDB <b>fcaj-idp-metadata</b> được khởi tạo thành công với cấu hình Capacity mode là On-demand.</i></p>
 
-![DynamoDB Explore Items](/static/images/1-Worklog/1.4-Week4/week4-2.png)
+![DynamoDB Explore Items](/images/1-Worklog/1.4-Week4/week4-2.png)
 <p align="center"><i>Hình 2: Giao diện Explore items hiển thị các bản ghi (items) định dạng JSON mẫu đã được chèn thành công vào bảng DynamoDB.</i></p>
 
-![Amazon RDS Dashboard](/static/images/1-Worklog/1.4-Week4/week4-3.png)
+![Amazon RDS Dashboard](/images/1-Worklog/1.4-Week4/week4-3.png)
 <p align="center"><i>Hình 3: Giao diện Amazon RDS hiển thị một database MySQL ở trạng thái Available, sẵn sàng kết nối.</i></p>
