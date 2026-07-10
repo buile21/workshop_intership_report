@@ -27,20 +27,20 @@ pre: " <b> 1.12. </b> "
 * Tối ưu hóa thành công quy trình dọn rác lưu trữ (S3 Lifecycle) và tối đa hóa hiệu năng phân phối tài sản web tĩnh. Đồ án khép lại thành công với hệ thống IDP Serverless hoàn chỉnh.
 
 ---
-![DynamoDB Tables](/images/1-Worklog/1.12-Week12/week12-1.png)
+![DynamoDB Tables](images/1-Worklog/1.12-Week12/week12-1.png)
 <p align="center"><i>Hình 1: Cấu trúc 4 bảng dữ liệu được tạo thành công trên dịch vụ cơ sở dữ liệu NoSQL Amazon DynamoDB với Capacity mode On-demand giúp tối ưu chi phí.</i></p>
 
-![API Gateway Methods](/images/1-Worklog/1.12-Week12/week12-2.png)
+![API Gateway Methods](images/1-Worklog/1.12-Week12/week12-2.png)
 <p align="center"><i>Hình 2: Triển khai các resources và cấu hình phương thức GET trên Amazon API Gateway tích hợp trực tiếp với các hàm xử lý dữ liệu AWS Lambda.</i></p>
 
-![AWS WAF Rule](/images/1-Worklog/1.12-Week12/week12-3.png)
+![AWS WAF Rule](images/1-Worklog/1.12-Week12/week12-3.png)
 <p align="center"><i>Hình 3: Thiết lập rào chắn AWS WAF với quy tắc Rate-limiting (BlockSpamIP) nhằm bảo vệ hạ tầng API trước tình trạng spam lượt truy cập ồ ạt từ các địa chỉ IP xấu.</i></p>
 
-![AWS WAF Rule](/images/1-Worklog/1.12-Week12/week12-4.png)
+![AWS WAF Rule](images/1-Worklog/1.12-Week12/week12-4.png)
 <p align="center"><i>Hình 4: Thiết lập rào chắn AWS WAF với quy tắc Rate-limiting (BlockSpamIP) nhằm bảo vệ hạ tầng API trước tình trạng spam lượt truy cập ồ ạt từ các địa chỉ IP xấu.</i></p>
 
-![Cognito Configuration](/images/1-Worklog/1.12-Week12/week12-5.png)
+![Cognito Configuration](images/1-Worklog/1.12-Week12/week12-5.png)
 <p align="center"><i>Hình 5: Thiết lập bộ xác thực Amazon Cognito User Pool Authorizer để chặn các request trái phép, bắt buộc người dùng gửi Authorization Token trước khi gọi API.</i></p>
 
-![Cognito Configuration](/images/1-Worklog/1.12-Week12/week12-6.png)
+![Cognito Configuration](images/1-Worklog/1.12-Week12/week12-6.png)
 <p align="center"><i>Hình 6: Thiết lập bộ xác thực Amazon Cognito User Pool Authorizer để chặn các request trái phép, bắt buộc người dùng gửi Authorization Token trước khi gọi API.</i></p>

@@ -15,7 +15,7 @@ Hàm **idp-api-categories** quét toàn bộ bảng dữ liệu hóa đơn và t
 4. **Runtime**: Sử dụng **Python 3.12**.
 5. **Permissions**: Chọn **Use an existing role** và áp dụng **idp-lambda-ai-role**.
 
-![Create Get Categories Function](/images/5-Workshop/5.5-Serverless-Lambda/get-categories.png)
+![Create Get Categories Function](images/5-Workshop/5.5-Serverless-Lambda/get-categories.png)
 
 6. Nhấn nút **Create function**.
 

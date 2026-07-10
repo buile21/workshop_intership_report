@@ -15,7 +15,7 @@ Hàm **idp-api-payments** thực hiện bộ lọc có điều kiện (Filter Ex
 4. **Runtime**: Lựa chọn phiên bản môi trường **Python 3.12**.
 5. **Permissions**: Chọn cấu hình vai trò **Use an existing role** và gán role `idp-lambda-ai-role`.
 
-![Create Get Payments Function](/images/5-Workshop/5.5-Serverless-Lambda/get-payments.png)
+![Create Get Payments Function](images/5-Workshop/5.5-Serverless-Lambda/get-payments.png)
 
 6. Bấm **Create function** để hoàn tất khởi tạo ban đầu.
 
