@@ -18,4 +18,4 @@ In this workshop, you will build a fully serverless IDP architecture on AWS rath
 * **Security & APIs:** The system's backend will be exposed via Amazon API Gateway (**idp-rest-api**). You will secure the application using Amazon Cognito (**idp-react-app**) for user authentication and AWS WAF (**idp-api-waf-shield**) to block spam requests.
 * **Frontend:** A React Single-Page Application (SPA) will be developed to handle file uploads via presigned URLs and visualize the processed data using interactive dashboards.
 
-![overview](static/images/5-Workshop/5.1-Workshop-overview/diagram1.png)
+![overview](../../images/5-Workshop/5.1-Workshop-overview/diagram1.png)

@@ -29,11 +29,11 @@ pre: " <b> 1.7. </b> "
 * Raised awareness of cost management by developing the habit of stopping Notebook Instances immediately after research sessions.
 
 ---
-![Amazon Textract Analysis](static/images/1-Worklog/1.7-Week7/week7-1.png)
+![Amazon Textract Analysis](../../images/1-Worklog/1.7-Week7/week7-1.png)
 <p align="center"><i>Figure 1: The Amazon Textract interface successfully analyzing a sample document, accurately extracting Key-Value data fields.</i></p>
 
-![SageMaker Notebook InService](static/images/1-Worklog/1.7-Week7/week7-2.png)
+![SageMaker Notebook InService](../../images/1-Worklog/1.7-Week7/week7-2.png)
 <p align="center"><i>Figure 2: Successfully initialized the Amazon SageMaker Notebook virtual server (InService state) to serve Machine Learning model research.</i></p>
 
-![SageMaker Jupyter Environment](static/images/1-Worklog/1.7-Week7/week7-3.png)
+![SageMaker Jupyter Environment](../../images/1-Worklog/1.7-Week7/week7-3.png)
 <p align="center"><i>Figure 3: The Jupyter Notebook interface on SageMaker, with time-series data (revenue) prepared using the Pandas library.</i></p>

@@ -20,12 +20,12 @@ Vì hàm này cần thực hiện quyền sinh URL cho phép tải tệp tin lê
 1. Chuyển sang tab **Configuration** và chọn mục **Permissions** ở thực đơn bên trái.
 2. Tại mục **Execution role**, nhấn chuột vào liên kết màu xanh có định dạng **idp-api-presign-role-xxxx**.
 
-![Liên kết vai trò thực thi](static/images/5-Workshop/5.5-Serverless-Lambda/presign-role.png)
+![Liên kết vai trò thực thi](../../images/5-Workshop/5.5-Serverless-Lambda/presign-role.png)
 
 3. Tại tab giao diện quản lý IAM vừa mở rộng, bấm nút **Add permissions** và chọn **Attach policies**.
 4. Nhập `AmazonS3FullAccess` vào ô tìm kiếm, tích chọn chính sách này.
 
-![Gắn quyền S3 Full Access](static/images/5-Workshop/5.5-Serverless-Lambda/attach-s3-access.png)
+![Gắn quyền S3 Full Access](../../images/5-Workshop/5.5-Serverless-Lambda/attach-s3-access.png)
 
 5. Cuộn xuống cuối trang và bấm nút **Add permissions** để hoàn tất việc gán quyền.
 

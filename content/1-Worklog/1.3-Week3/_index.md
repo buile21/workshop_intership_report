@@ -29,11 +29,11 @@ pre: " <b> 1.3. </b> "
 * Clearly understood the operating method of CloudFront combined with OAC to securely wrap the S3 document repository.
 
 ---
-![Custom VPC Resource Map](static/images/1-Worklog/1.3-Week3/week3-1.png)
+![Custom VPC Resource Map](../../images/1-Worklog/1.3-Week3/week3-1.png)
 <p align="center"><i>Figure 1: The network resource map showing the newly created Custom VPC with Public/Private Subnets and how network traffic is routed.</i></p>
 
-![Security Group Inbound Rules](static/images/1-Worklog/1.3-Week3/week3-2.png)
+![Security Group Inbound Rules](../../images/1-Worklog/1.3-Week3/week3-2.png)
 <p align="center"><i>Figure 2: The Inbound rules configuration of the Security Group is strictly set, only allowing the SSH port (22) from a personal IP address.</i></p>
 
-![VPC Route Table](static/images/1-Worklog/1.3-Week3/week3-3.png)
+![VPC Route Table](../../images/1-Worklog/1.3-Week3/week3-3.png)
 <p align="center"><i>Figure 3: Route Table configuration for the Public Subnet, successfully routing traffic to the Internet via the Internet Gateway (IGW).</i></p>

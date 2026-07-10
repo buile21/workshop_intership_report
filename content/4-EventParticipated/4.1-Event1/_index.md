@@ -68,4 +68,4 @@ The seminar wasn't just theoretical presentations; it actually provided me with 
 > **Conclusion:** The event helped me step out of the pure "coding" perspective and shift toward the mindset of a systems engineer: securely connecting Cloud services together, optimizing costs, and always having a fallback plan for the "non-determinism" of modern AI technologies.
 
 #### Some pictures from the event
-![](static/images/4-EventParticipated/4.1-Event1/event.png)
+![](../../images/4-EventParticipated/4.1-Event1/event.png)
