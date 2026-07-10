@@ -18,8 +18,8 @@ This table stores the final data extracted by the AI.
 4. **Table settings**: Select **Customize settings**.
 5. **Read/write capacity settings**: Select **On-demand** (Important for cost savings).
 
-![InvoicesData](../../images/5-Workshop/5.3-Storage-Database/dynamo-invoicesdata-1.png)
-![InvoicesData](../../images/5-Workshop/5.3-Storage-Database/dynamo-invoicesdata-2.png)
+![InvoicesData](/images/5-Workshop/5.3-Storage-Database/dynamo-invoicesdata-1.png)
+![InvoicesData](/images/5-Workshop/5.3-Storage-Database/dynamo-invoicesdata-2.png)
 6. Click **Create table**.
 
 #### Table 2: InvoicePayments
@@ -29,8 +29,8 @@ This table tracks the payment status of each invoice.
 3. **Partition key**: **invoiceId** (Type: **String**).
 4. **Table settings**: Select **Customize settings** -> **On-demand**.
 
-![InvoicePayments](../../images/5-Workshop/5.3-Storage-Database/dynamo-invoicespayments-1.png)
-![InvoicePayments](../../images/5-Workshop/5.3-Storage-Database/dynamo-invoicespayments-2.png)
+![InvoicePayments](/images/5-Workshop/5.3-Storage-Database/dynamo-invoicespayments-1.png)
+![InvoicePayments](/images/5-Workshop/5.3-Storage-Database/dynamo-invoicespayments-2.png)
 5. Click **Create table**.
 
 #### Table 3: UserBudgets
@@ -48,8 +48,8 @@ This table stores custom categorization rules for users.
 3. **Partition key**: **userEmail** (Type: **String**).
 4. **Table settings**: Select **Customize settings** -> **On-demand**.
 
-![UserCategories](../../images/5-Workshop/5.3-Storage-Database/dynamo-usercategories-1.png)
-![UserCategories](../../images/5-Workshop/5.3-Storage-Database/dynamo-usercategories-2.png)
+![UserCategories](/images/5-Workshop/5.3-Storage-Database/dynamo-usercategories-1.png)
+![UserCategories](/images/5-Workshop/5.3-Storage-Database/dynamo-usercategories-2.png)
 5. Click **Create table**.
 
 ---
@@ -57,4 +57,4 @@ This table stores custom categorization rules for users.
 #### Verification
 Wait a few moments until the status of all four tables becomes **Active** before moving to the next section. Your DynamoDB tables list should look exactly like this:
 
-![All Tables Active](../../images/5-Workshop/5.3-Storage-Database/dynamo-all-table.png)
+![All Tables Active](/images/5-Workshop/5.3-Storage-Database/dynamo-all-table.png)

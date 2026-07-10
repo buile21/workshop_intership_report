@@ -18,7 +18,7 @@ Tuy nhiên, đối với các tổ chức sử dụng **AWS Organizations**, m�
 
 # Kiến trúc giải pháp
 
-![Kiến trúc tổng thể tuân thủ Service Control Polices](../../images/3-BlogsTranslated/3.3-Blog3/image.png)
+![Kiến trúc tổng thể tuân thủ Service Control Polices](/images/3-BlogsTranslated/3.3-Blog3/image.png)
 
 **Hình 1. Kiến trúc tổng thể của hệ thống sinh mã Infrastructure as Code tuân thủ Service Control Policies.**
 

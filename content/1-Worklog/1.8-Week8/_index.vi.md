@@ -29,11 +29,11 @@ pre: " <b> 1.8. </b> "
 * Nắm vững cách thiết lập chuông cảnh báo tự động (Alarms) khi hệ thống có dấu hiệu quá tải hoặc phát sinh lỗi.
 
 ---
-![AWS CloudFormation Stack](../../images/1-Worklog/1.8-Week8/week8-1.png)
+![AWS CloudFormation Stack](/images/1-Worklog/1.8-Week8/week8-1.png)
 <p align="center"><i>Hình 1: Giao diện AWS CloudFormation triển khai thành công một Stack (CREATE_COMPLETE) tự động cấp phát tài nguyên từ template YAML.</i></p>
 
-![Amazon CloudWatch Logs](../../images/1-Worklog/1.8-Week8/week8-2.png)
+![Amazon CloudWatch Logs](/images/1-Worklog/1.8-Week8/week8-2.png)
 <p align="center"><i>Hình 2: Trình xem nhật ký (Log groups) trên Amazon CloudWatch hiển thị chi tiết các luồng thực thi (Log streams) của hệ thống Serverless.</i></p>
 
-![Amazon CloudWatch Alarm](../../images/1-Worklog/1.8-Week8/week8-3.png)
+![Amazon CloudWatch Alarm](/images/1-Worklog/1.8-Week8/week8-3.png)
 <p align="center"><i>Hình 3: Thiết lập thành công chuông cảnh báo tự động (Alarm) trên CloudWatch giám sát chỉ số (Metrics) hoạt động của dịch vụ.</i></p>

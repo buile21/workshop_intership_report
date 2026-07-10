@@ -30,11 +30,11 @@ pre: " <b> 1.2. </b> "
 * Hình thành thói quen gắn thẻ tài nguyên một cách có hệ thống, giúp ích lớn cho việc quản lý chi phí AWS sau này.
 
 ---
-![S3 Bucket Creation](../../images/1-Worklog/1.2-Week2/week2-1.png)
+![S3 Bucket Creation](/images/1-Worklog/1.2-Week2/week2-1.png)
 <p align="center"><i>Hình 1: Amazon S3 Bucket được tạo thành công với tính năng Block all public access được kích hoạt.</i></p>
 
-![CLI S3 Copy](../../images/1-Worklog/1.2-Week2/week2-2.png)
+![CLI S3 Copy](/images/1-Worklog/1.2-Week2/week2-2.png)
 <p align="center"><i>Hình 2: Sử dụng lệnh <b>aws s3 cp</b> để upload thành công tài liệu mẫu từ máy tính local lên S3 Bucket.</i></p>
 
-![IAM Role Creation](../../images/1-Worklog/1.2-Week2/week2-3.png)
+![IAM Role Creation](/images/1-Worklog/1.2-Week2/week2-3.png)
 <p align="center"><i>Hình 3: Giao diện IAM hiển thị Role mới được tạo với quyền truy cập S3 và gắn thành công vào máy chủ EC2.</i></p>

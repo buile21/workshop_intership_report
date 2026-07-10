@@ -47,4 +47,4 @@ The experience of "rapid-fire thinking" under the Game Show's time pressure brou
 > **Conclusion:** "Cloud Architect" was not just an entertaining playground after stressful coding hours, but also a practical test of foundational knowledge and psychological resilience. The event helped me bond more with fellow interns and take away a long list of Cloud concepts that need deeper exploration.
 
 #### Some pictures from the event
-![](../../images/4-EventParticipated/4.2-Event2/event.png)
+![](/images/4-EventParticipated/4.2-Event2/event.png)

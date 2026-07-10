@@ -47,4 +47,4 @@ Trải nghiệm "não nảy số" dưới áp lực thời gian của Game Show 
 > **Tổng kết:** "Cloud Architect" không chỉ là một sân chơi giải trí sau những giờ code căng thẳng, mà còn là một bài test thực tế về kiến thức nền tảng và bản lĩnh tâm lý. Sự kiện đã giúp mình gắn kết thêm với các anh em thực tập sinh khác và thu về một danh sách dài những kiến thức Cloud cần phải đào sâu hơn nữa.
 
 #### Một số hình ảnh khi tham gia sự kiện
-![](../../images/4-EventParticipated/4.2-Event2/event.png)
+![](/images/4-EventParticipated/4.2-Event2/event.png)

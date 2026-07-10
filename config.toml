@@ -1,5 +1,5 @@
 baseURL = "https://buile21.github.io/workshop_intership_report/"
-relativeURLs = false
+relativeURLs = true
 canonifyURLs = false
 defaultContentLanguage = "en"
 

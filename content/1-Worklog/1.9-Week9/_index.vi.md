@@ -29,11 +29,11 @@ pre: " <b> 1.9. </b> "
 * Nâng cao kỹ năng debug luồng dữ liệu phân tán bằng cách theo dõi các thông điệp di chuyển qua lại giữa các dịch vụ tích ứng dụng.
 
 ---
-![SNS Topic and SQS Subscription](../../images/1-Worklog/1.9-Week9/week9-1.png)
+![SNS Topic and SQS Subscription](/images/1-Worklog/1.9-Week9/week9-1.png)
 <p align="center"><i>Hình 1: Cấu hình Amazon SNS Topic kết nối thành công với hàng đợi Amazon SQS theo mô hình kiến trúc Fan-out.</i></p>
 
-![SQS Message Polling](../../images/1-Worklog/1.9-Week9/week9-2.png)
+![SQS Message Polling](/images/1-Worklog/1.9-Week9/week9-2.png)
 <p align="center"><i>Hình 2: Giao diện SQS Explore messages cho thấy các thông điệp đã được đẩy vào hàng đợi thành công và sẵn sàng để xử lý.</i></p>
 
-![EventBridge Rule Configuration](../../images/1-Worklog/1.9-Week9/week9-3.png)
+![EventBridge Rule Configuration](/images/1-Worklog/1.9-Week9/week9-3.png)
 <p align="center"><i>Hình 3: Quy tắc (Rule) trên Amazon EventBridge được thiết lập thành công để bắt sự kiện từ S3 Bucket và chuyển tiếp tới Target.</i></p>

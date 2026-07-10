@@ -13,7 +13,7 @@ AWS Lambda functions require an execution role to interact with other AWS servic
 2. **Trusted entity type**: Select **AWS service**.
 3. **Use case**: Select **Lambda**, then click **Next**.
 
-![IAM Trust Entity](../../images/5-Workshop/5.4-Messaging-IAM/iam-trust-1.png)
+![IAM Trust Entity](/images/5-Workshop/5.4-Messaging-IAM/iam-trust-1.png)
 
 4. On the **Add permissions** page, search for and select (check the box) the following 5 policies:
    * `AWSLambdaSQSQueueExecutionRole`
@@ -22,9 +22,9 @@ AWS Lambda functions require an execution role to interact with other AWS servic
    * `AmazonTextractFullAccess`
    * `AmazonBedrockFullAccess`
 
-![IAM Permissions](../../images/5-Workshop/5.4-Messaging-IAM/iam-permissions-2.png)
+![IAM Permissions](/images/5-Workshop/5.4-Messaging-IAM/iam-permissions-2.png)
 
 5. Click **Next**.
 6. **Role name**: Enter `idp-lambda-ai-role`.
-![IAM Permissions](../../images/5-Workshop/5.4-Messaging-IAM/idp-lambda-ai-role.png)
+![IAM Permissions](/images/5-Workshop/5.4-Messaging-IAM/idp-lambda-ai-role.png)
 7. Scroll to the bottom and click **Create role**.

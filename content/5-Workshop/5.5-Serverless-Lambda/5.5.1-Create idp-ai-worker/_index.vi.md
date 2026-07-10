@@ -15,7 +15,7 @@ Hàm **idp-ai-worker** chịu trách nhiệm xử lý không đồng bộ. Khi c
 4. **Runtime**: Chọn **Python 3.12**.
 5. **Permissions**: Mở mục *Change default execution role*, tích chọn **Use an existing role** và chọn **idp-lambda-ai-role** từ danh sách.
 
-![Khởi tạo Lambda](../../images/5-Workshop/5.5-Serverless-Lambda/create-worker.png)
+![Khởi tạo Lambda](/images/5-Workshop/5.5-Serverless-Lambda/create-worker.png)
 
 6. Bấm nút **Create function**.
 
@@ -26,7 +26,7 @@ Vì tác vụ gọi AI bóc tách tài liệu tiêu tốn thời gian hơn các 
 3. **Memory**: Thay đổi từ `128 MB` thành `256 MB`.
 4. **Timeout**: Thay đổi từ `0 min 3 sec` thành `1 min 0 sec`.
 
-![Cấu hình RAM và Timeout](../../images/5-Workshop/5.5-Serverless-Lambda/worker-config.png)
+![Cấu hình RAM và Timeout](/images/5-Workshop/5.5-Serverless-Lambda/worker-config.png)
 
 5. Bấm **Save**.
 
@@ -36,7 +36,7 @@ Vì tác vụ gọi AI bóc tách tài liệu tiêu tốn thời gian hơn các 
 3. **SQS queue**: Chọn đúng ARN của hàng đợi **idp-document-queue**.
 4. **Batch size**: Giữ nguyên giá trị mặc định là `10`.
 
-![Cấu hình Trigger SQS](../../images/5-Workshop/5.5-Serverless-Lambda/worker-trigger.png)
+![Cấu hình Trigger SQS](/images/5-Workshop/5.5-Serverless-Lambda/worker-trigger.png)
 
 5. Giữ nguyên các tùy chọn khác và bấm **Add**.
 

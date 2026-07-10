@@ -68,4 +68,4 @@ Hội thảo không chỉ là những bài trình bày lý thuyết mà thực s
 > **Tổng kết:** Sự kiện giúp mình thoát khỏi góc nhìn thuần "viết code", chuyển sang tư duy của một kỹ sư xây dựng hệ thống: kết nối các dịch vụ Cloud lại với nhau một cách an toàn, tiết kiệm chi phí, và luôn có phương án dự phòng cho sự "bất định" của các công nghệ AI thời đại mới.
 
 #### Một số hình ảnh khi tham gia sự kiện
-![](../../images/4-EventParticipated/4.1-Event1/event.png)
+![](/images/4-EventParticipated/4.1-Event1/event.png)

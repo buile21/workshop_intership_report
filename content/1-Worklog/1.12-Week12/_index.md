@@ -27,20 +27,20 @@ pre: " <b> 1.12. </b> "
 * Successfully optimized the storage garbage collection process (S3 Lifecycle) and maximized the distribution performance of static web assets. The project concludes successfully with a complete Serverless IDP system.
 
 ---
-![DynamoDB Tables](../../images/1-Worklog/1.12-Week12/week12-1.png)
+![DynamoDB Tables](/images/1-Worklog/1.12-Week12/week12-1.png)
 <p align="center"><i>Figure 1: The structure of 4 data tables successfully created on the Amazon DynamoDB NoSQL database service with On-demand Capacity mode to help optimize costs.</i></p>
 
-![API Gateway Methods](../../images/1-Worklog/1.12-Week12/week12-2.png)
+![API Gateway Methods](/images/1-Worklog/1.12-Week12/week12-2.png)
 <p align="center"><i>Figure 2: Deploying resources and configuring the GET method on Amazon API Gateway directly integrated with AWS Lambda data processing functions.</i></p>
 
-![AWS WAF Rule](../../images/1-Worklog/1.12-Week12/week12-3.png)
+![AWS WAF Rule](/images/1-Worklog/1.12-Week12/week12-3.png)
 <p align="center"><i>Figure 3: Setting up the AWS WAF barrier with a Rate-limiting rule (BlockSpamIP) to protect the API infrastructure against massive spam access from malicious IP addresses.</i></p>
 
-![AWS WAF Rule](../../images/1-Worklog/1.12-Week12/week12-4.png)
+![AWS WAF Rule](/images/1-Worklog/1.12-Week12/week12-4.png)
 <p align="center"><i>Figure 4: Setting up the AWS WAF barrier with a Rate-limiting rule (BlockSpamIP) to protect the API infrastructure against massive spam access from malicious IP addresses.</i></p>
 
-![Cognito Configuration](../../images/1-Worklog/1.12-Week12/week12-5.png)
+![Cognito Configuration](/images/1-Worklog/1.12-Week12/week12-5.png)
 <p align="center"><i>Figure 5: Setting up the Amazon Cognito User Pool Authorizer authentication module to block unauthorized requests, requiring users to send an Authorization Token before calling the API.</i></p>
 
-![Cognito Configuration](../../images/1-Worklog/1.12-Week12/week12-6.png)
+![Cognito Configuration](/images/1-Worklog/1.12-Week12/week12-6.png)
 <p align="center"><i>Figure 6: Setting up the Amazon Cognito User Pool Authorizer authentication module to block unauthorized requests, requiring users to send an Authorization Token before calling the API.</i></p>

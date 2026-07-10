@@ -31,11 +31,11 @@ pre: " <b> 1.1. </b> "
 * Nhạy bén hơn trong việc sử dụng Document của AWS để tra cứu tài liệu khi cấu hình dịch vụ.
 
 ---
-![AWS CLI Configuration](../../images/1-Worklog/1.1-Week1/week1-1.png)
+![AWS CLI Configuration](/images/1-Worklog/1.1-Week1/week1-1.png)
 <p align="center"><i>Hình 1: Kiểm tra cấu hình AWS CLI thành công trên máy tính bằng lệnh <b>aws sts get-caller-identity</b>.</i></p>
 
-![EC2 Dashboard](../../images/1-Worklog/1.1-Week1/week1-2.png)
+![EC2 Dashboard](/images/1-Worklog/1.1-Week1/week1-2.png)
 <p align="center"><i>Hình 2: Máy chủ ảo EC2 được khởi tạo thành công và đang hoạt động (trạng thái Running) trên giao diện AWS Management Console.</i></p>
 
-![SSH Terminal](../../images/1-Worklog/1.1-Week1/week1-3.png)
+![SSH Terminal](/images/1-Worklog/1.1-Week1/week1-3.png)
 <p align="center"><i>Hình 3: Kết nối SSH thành công vào bên trong máy chủ EC2 từ terminal local.</i></p>
