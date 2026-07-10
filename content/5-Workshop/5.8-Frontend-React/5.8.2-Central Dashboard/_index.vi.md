@@ -9,7 +9,7 @@ pre : " <b> 5.8.2. </b> "
 Trái tim của ứng dụng Frontend là trang Dashboard. Tại đây, hệ thống sẽ kết nối với các API Gateway (`/invoices`, `/budget`, `/categories`, `/payments`) để vẽ biểu đồ thống kê bằng Recharts và quản lý lịch sử hóa đơn.
 
 #### Dashboard Interface
-![Dashboard Interface](images/5-Workshop/5.8-Frontend-React/dashboard.png)
+![Dashboard Interface](static/images/5-Workshop/5.8-Frontend-React/dashboard.png)
 
 #### Dashboard Core (`src/components/Dashboard.jsx`)
 Component này xử lý logic tính toán ngân sách, cảnh báo vượt mức chi tiêu, lọc công nợ và xuất dữ liệu ra file CSV.

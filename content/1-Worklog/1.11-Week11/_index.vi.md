@@ -27,11 +27,11 @@ pre: " <b> 1.11. </b> "
 * Luồng xử lý bất đồng bộ khép kín hoàn hảo: Tệp tin đẩy lên S3 -> SQS nhận sự kiện -> Kích hoạt Lambda xử lý AI -> Lưu trữ trực tiếp kết quả sạch xuống DynamoDB thành công, chuẩn bị sẵn sàng dữ liệu cho lớp ứng dụng Frontend.
 
 ---
-![Khởi tạo Lambda](images/1-Worklog/1.11-Week11/week11-1.png)
+![Khởi tạo Lambda](static/images/1-Worklog/1.11-Week11/week11-1.png)
 <p align="center"><i>Hình 1: Giao diện khởi tạo thành công hàm Lambda idp-ai-worker sử dụng môi trường chạy Python 3.12 và cấu hình Execution role chuyên biệt.</i></p>
 
-![Lambda Memory Config](images/1-Worklog/1.11-Week11/week11-2.png)
+![Lambda Memory Config](static/images/1-Worklog/1.11-Week11/week11-2.png)
 <p align="center"><i>Hình 2: Cấu hình điều chỉnh nâng thông số tài nguyên RAM (256 MB) và giới hạn Timeout (1 phút) phục vụ tốt cho tác vụ phân tích tài liệu AI nặng.</i></p>
 
-![SQS Trigger Config](images/1-Worklog/1.11-Week11/week11-3.png)
+![SQS Trigger Config](static/images/1-Worklog/1.11-Week11/week11-3.png)
 <p align="center"><i>Hình 3: Cấu hình liên kết hàng đợi Amazon SQS (idp-document-queue) làm trigger kích hoạt tự động cho hàm Lambda với kiến trúc xử lý mẻ Batch size bằng 10.</i></p>

@@ -15,7 +15,7 @@ The `idp-api-get-stats` function aggregates invoice data by time periods (months
 4. **Runtime**: Select **Python 3.12**.
 5. **Permissions**: Check **Use an existing role** and specify the **idp-lambda-ai-role**.
 
-![Create Get Stats Function](images/5-Workshop/5.5-Serverless-Lambda/get-stats.png)
+![Create Get Stats Function](static/images/5-Workshop/5.5-Serverless-Lambda/get-stats.png)
 
 6. Click **Create function**.
 

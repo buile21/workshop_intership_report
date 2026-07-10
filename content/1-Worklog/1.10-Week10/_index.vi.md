@@ -27,26 +27,26 @@ pre: " <b> 1.10. </b> "
 * Đảm bảo nguyên tắc bảo mật đặc quyền tối thiểu (Least Privilege) với IAM Role, hạ tầng đã hoàn toàn sẵn sàng để tích hợp với động cơ AI ở tuần kế tiếp.
 
 ---
-![Block Public Access S3](images/1-Worklog/1.10-Week10/week10-1.png)
+![Block Public Access S3](static/images/1-Worklog/1.10-Week10/week10-1.png)
 <p align="center"><i>Hình 1: Cấu hình chặn toàn bộ truy cập công khai (Block all public access) trên S3 Bucket để đảm bảo an toàn tuyệt đối cho tài liệu hóa đơn đầu vào.</i></p>
 
-![Block Public Access S3](images/1-Worklog/1.10-Week10/week10-2.png)
+![Block Public Access S3](static/images/1-Worklog/1.10-Week10/week10-2.png)
 <p align="center"><i>Hình 2: Cấu hình chặn toàn bộ truy cập công khai (Block all public access) trên S3 Bucket để đảm bảo an toàn tuyệt đối cho tài liệu hóa đơn đầu vào.</i></p>
 
-![SQS Access Policy](images/1-Worklog/1.10-Week10/week10-3.png)
+![SQS Access Policy](static/images/1-Worklog/1.10-Week10/week10-3.png)
 <p align="center"><i>Hình 3: Phân quyền Access policy cho phép Amazon SQS tiếp nhận thông điệp kích hoạt (trigger) trực tiếp từ Amazon S3.</i></p>
 
-![SQS Access Policy](images/1-Worklog/1.10-Week10/week10-4.png)
+![SQS Access Policy](static/images/1-Worklog/1.10-Week10/week10-4.png)
 <p align="center"><i>Hình 4: Phân quyền Access policy cho phép Amazon SQS tiếp nhận thông điệp kích hoạt (trigger) trực tiếp từ Amazon S3.</i></p>
 
-![S3 Event Notification](images/1-Worklog/1.10-Week10/week10-5.png)
+![S3 Event Notification](static/images/1-Worklog/1.10-Week10/week10-5.png)
 <p align="center"><i>Hình 5: Thiết lập Event Notification (SendToSQS) để tự động bắt sự kiện tải file và định tuyến tới hàng đợi SQS.</i></p>
 
-![S3 Event Notification](images/1-Worklog/1.10-Week10/week10-6.png)
+![S3 Event Notification](static/images/1-Worklog/1.10-Week10/week10-6.png)
 <p align="center"><i>Hình 6: Thiết lập Event Notification (SendToSQS) để tự động bắt sự kiện tải file và định tuyến tới hàng đợi SQS.</i></p>
 
-![IAM Role Permissions](images/1-Worklog/1.10-Week10/week10-7.png)
+![IAM Role Permissions](static/images/1-Worklog/1.10-Week10/week10-7.png)
 <p align="center"><i>Hình 7: Khởi tạo IAM Role với các nhóm quyền chuyên biệt (S3, DynamoDB, Textract, SQS) chuẩn bị cho động cơ xử lý tài liệu AI.</i></p>
 
-![IAM Role Permissions](images/1-Worklog/1.10-Week10/week10-8.png)
+![IAM Role Permissions](static/images/1-Worklog/1.10-Week10/week10-8.png)
 <p align="center"><i>Hình 8: Khởi tạo IAM Role với các nhóm quyền chuyên biệt (S3, DynamoDB, Textract, SQS) chuẩn bị cho động cơ xử lý tài liệu AI.</i></p>

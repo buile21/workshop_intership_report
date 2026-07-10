@@ -15,7 +15,7 @@ Hàm **idp-api-get-invoices** thực hiện việc quét (scan) bảng **Invoice
 4. **Runtime**: Chọn **Python 3.12**.
 5. **Permissions**: Chọn **Use an existing role** và chọn **idp-lambda-ai-role**.
 
-![Create Get Invoices Function](images/5-Workshop/5.5-Serverless-Lambda/get-invoices.png)
+![Create Get Invoices Function](static/images/5-Workshop/5.5-Serverless-Lambda/get-invoices.png)
 
 6. Bấm nút **Create function**.
 

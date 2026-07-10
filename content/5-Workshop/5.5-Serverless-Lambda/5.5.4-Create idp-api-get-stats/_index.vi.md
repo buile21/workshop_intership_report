@@ -15,7 +15,7 @@ Hàm **idp-api-get-stats** thực hiện việc tổng hợp dữ liệu hóa đ
 4. **Runtime**: Chọn **Python 3.12**.
 5. **Permissions**: Tích chọn mục **Use an existing role** và chỉ định vai trò **idp-lambda-ai-role**.
 
-![Create Get Stats Function](images/5-Workshop/5.5-Serverless-Lambda/get-stats.png)
+![Create Get Stats Function](static/images/5-Workshop/5.5-Serverless-Lambda/get-stats.png)
 
 6. Bấm nút **Create function**.
 
