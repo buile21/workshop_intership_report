@@ -29,11 +29,11 @@ pre: " <b> 1.9. </b> "
 * Improved distributed data flow debugging skills by tracking messages moving back and forth between application integration services.
 
 ---
-![SNS Topic and SQS Subscription](/images/1-Worklog/1.9-Week9/week9-1.png)
+![SNS Topic and SQS Subscription](/workshop_intership_report/images/1-Worklog/1.9-Week9/week9-1.png)
 <p align="center"><i>Figure 1: Amazon SNS Topic configuration successfully connected to the Amazon SQS queue following the Fan-out architecture model.</i></p>
 
-![SQS Message Polling](/images/1-Worklog/1.9-Week9/week9-2.png)
+![SQS Message Polling](/workshop_intership_report/images/1-Worklog/1.9-Week9/week9-2.png)
 <p align="center"><i>Figure 2: The SQS Explore messages interface showing messages successfully pushed into the queue and ready to be processed.</i></p>
 
-![EventBridge Rule Configuration](/images/1-Worklog/1.9-Week9/week9-3.png)
+![EventBridge Rule Configuration](/workshop_intership_report/images/1-Worklog/1.9-Week9/week9-3.png)
 <p align="center"><i>Figure 3: An Amazon EventBridge Rule successfully configured to capture events from the S3 Bucket and forward them to the Target.</i></p>

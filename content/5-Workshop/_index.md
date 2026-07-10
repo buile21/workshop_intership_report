@@ -32,4 +32,3 @@ Throughout this lab, you will deploy and configure various AWS services across d
 7. [API Gateway & WAF Security](5.7-API-Gateway-WAF/)
 8. [React Frontend Implementation](5.8-Frontend-React/)
 9. [Testing & Validation](5.9-Testing-Validation/)
-10. [Clean up](5.10-Cleanup/)

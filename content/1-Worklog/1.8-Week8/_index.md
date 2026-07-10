@@ -29,11 +29,11 @@ pre: " <b> 1.8. </b> "
 * Mastered setting up automated Alarms to be notified when the system shows signs of overload or encounters errors.
 
 ---
-![AWS CloudFormation Stack](/images/1-Worklog/1.8-Week8/week8-1.png)
+![AWS CloudFormation Stack](/workshop_intership_report/images/1-Worklog/1.8-Week8/week8-1.png)
 <p align="center"><i>Figure 1: The AWS CloudFormation interface successfully deploying a Stack (CREATE_COMPLETE) that automatically provisions resources from a YAML template.</i></p>
 
-![Amazon CloudWatch Logs](/images/1-Worklog/1.8-Week8/week8-2.png)
+![Amazon CloudWatch Logs](/workshop_intership_report/images/1-Worklog/1.8-Week8/week8-2.png)
 <p align="center"><i>Figure 2: The Log groups viewer on Amazon CloudWatch displaying detailed execution flows (Log streams) of the Serverless system.</i></p>
 
-![Amazon CloudWatch Alarm](/images/1-Worklog/1.8-Week8/week8-3.png)
+![Amazon CloudWatch Alarm](/workshop_intership_report/images/1-Worklog/1.8-Week8/week8-3.png)
 <p align="center"><i>Figure 3: Successfully configured an automated Alarm on CloudWatch to monitor service operational Metrics.</i></p>

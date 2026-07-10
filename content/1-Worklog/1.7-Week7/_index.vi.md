@@ -29,11 +29,11 @@ pre: " <b> 1.7. </b> "
 * Nâng cao nhận thức về quản lý chi phí bằng thói quen tắt (Stop) các Notebook Instances ngay sau quá trình nghiên cứu.
 
 ---
-![Amazon Textract Analysis](/images/1-Worklog/1.7-Week7/week7-1.png)
+![Amazon Textract Analysis](/workshop_intership_report/images/1-Worklog/1.7-Week7/week7-1.png)
 <p align="center"><i>Hình 1: Giao diện Amazon Textract phân tích thành công một tài liệu mẫu, bóc tách chính xác các trường dữ liệu dạng Key-Value.</i></p>
 
-![SageMaker Notebook InService](/images/1-Worklog/1.7-Week7/week7-2.png)
+![SageMaker Notebook InService](/workshop_intership_report/images/1-Worklog/1.7-Week7/week7-2.png)
 <p align="center"><i>Hình 2: Khởi tạo thành công máy chủ ảo Amazon SageMaker Notebook (trạng thái InService) để phục vụ việc nghiên cứu mô hình Học máy.</i></p>
 
-![SageMaker Jupyter Environment](/images/1-Worklog/1.7-Week7/week7-3.png)
+![SageMaker Jupyter Environment](/workshop_intership_report/images/1-Worklog/1.7-Week7/week7-3.png)
 <p align="center"><i>Hình 3: Giao diện Jupyter Notebook trên SageMaker, chuẩn bị sẵn sàng dữ liệu chuỗi thời gian (doanh thu) bằng thư viện Pandas.</i></p>

@@ -32,4 +32,3 @@ Trong suốt bài thực hành này, bạn sẽ triển khai và cấu hình cá
 7. [API Gateway & Bảo mật WAF](5.7-API-Gateway-WAF/)
 8. [Triển khai giao diện React](5.8-Frontend-React/)
 9. [Kiểm thử & Xác nhận kết quả](5.9-Testing-Validation/)
-10. [Dọn dẹp tài nguyên](5.10-Cleanup/)

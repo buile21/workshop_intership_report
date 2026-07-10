@@ -27,11 +27,11 @@ pre: " <b> 1.11. </b> "
 * Perfectly closed asynchronous processing flow: File pushed to S3 -> SQS receives the event -> Triggers Lambda for AI processing -> Successfully stores the clean results directly to DynamoDB, preparing the data for the Frontend application layer.
 
 ---
-![Initialize Lambda](/images/1-Worklog/1.11-Week11/week11-1.png)
+![Initialize Lambda](/workshop_intership_report/images/1-Worklog/1.11-Week11/week11-1.png)
 <p align="center"><i>Figure 1: Successful initialization interface of the idp-ai-worker Lambda function using the Python 3.12 runtime environment and a specialized Execution role configuration.</i></p>
 
-![Lambda Memory Config](/images/1-Worklog/1.11-Week11/week11-2.png)
+![Lambda Memory Config](/workshop_intership_report/images/1-Worklog/1.11-Week11/week11-2.png)
 <p align="center"><i>Figure 2: Configuration adjustments increasing RAM resources (256 MB) and Timeout limits (1 minute) to well-serve heavy AI document analysis tasks.</i></p>
 
-![SQS Trigger Config](/images/1-Worklog/1.11-Week11/week11-3.png)
+![SQS Trigger Config](/workshop_intership_report/images/1-Worklog/1.11-Week11/week11-3.png)
 <p align="center"><i>Figure 3: Configuring the Amazon SQS queue (idp-document-queue) linkage as an automatic trigger for the Lambda function with a batch processing architecture of Batch size 10.</i></p>

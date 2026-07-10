@@ -13,7 +13,7 @@ pre : " <b> 5.7.1. </b> "
 4. **API name**: Enter `idp-backend-api`.
 5. **Endpoint Type**: Choose **Regional**.
 
-![Create API Gateway](/images/5-Workshop/5.7-API-Gateway-WAF/create-api.png)
+![Create API Gateway](/workshop_intership_report/images/5-Workshop/5.7-API-Gateway-WAF/create-api.png)
 6. Click **Create API**.
 
 #### Step 2: Create Resources and Methods
@@ -25,14 +25,14 @@ Follow this exact process for each of the 5 endpoints:
 3. **Resource Name**: Enter `get-upload-url` (This automatically sets the Resource path to **/get-upload-url**). Click **Create resource**.
 4. Select the newly created **/get-upload-url** resource, click **Create method**.
 
-![API Gateway Method](/images/5-Workshop/5.7-API-Gateway-WAF/api-resource.png)
+![API Gateway Method](/workshop_intership_report/images/5-Workshop/5.7-API-Gateway-WAF/api-resource.png)
 5. **Method type**: Select **GET**.
 6. **Integration type**: Select **Lambda function**.
 7. **Lambda proxy integration**: **MUST CHECK THIS BOX** (Turn it on).
 8. **Lambda function**: Select **idp-api-presign**.
 9. Click **Create method**.
 
-![API Gateway Method](/images/5-Workshop/5.7-API-Gateway-WAF/api-method.png)
+![API Gateway Method](/workshop_intership_report/images/5-Workshop/5.7-API-Gateway-WAF/api-method.png)
 
 #### Repeat for all endpoints
 Repeat the process above to create the following Resources and GET methods:
