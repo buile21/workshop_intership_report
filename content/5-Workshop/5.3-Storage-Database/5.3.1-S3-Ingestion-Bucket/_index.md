@@ -14,12 +14,12 @@ This bucket will securely store the raw documents uploaded by users before they 
 3. **AWS Region**: Select **US East (N. Virginia) us-east-1**.
 4. **Object Ownership**: Select **ACLs disabled**.
 5. **Block Public Access settings for this bucket**: Check **Block all public access**.
-![Block Public Access](/images/5-Workshop/5.3-Storage-Database/s3-ingest-block-public-1.png)
+![Block Public Access](images/5-Workshop/5.3-Storage-Database/s3-ingest-block-public-1.png)
 
 6. Leave all other options as default.
-![Block Public Access](/images/5-Workshop/5.3-Storage-Database/s3-ingest-block-public-2.png)
-![Block Public Access](/images/5-Workshop/5.3-Storage-Database/s3-ingest-block-public-3.png)
-![Block Public Access](/images/5-Workshop/5.3-Storage-Database/s3-ingest-block-public-4.png)
+![Block Public Access](images/5-Workshop/5.3-Storage-Database/s3-ingest-block-public-2.png)
+![Block Public Access](images/5-Workshop/5.3-Storage-Database/s3-ingest-block-public-3.png)
+![Block Public Access](images/5-Workshop/5.3-Storage-Database/s3-ingest-block-public-4.png)
 
 7. Click **Create bucket**.
 

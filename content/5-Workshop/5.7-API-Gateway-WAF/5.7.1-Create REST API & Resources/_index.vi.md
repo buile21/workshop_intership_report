@@ -13,7 +13,7 @@ pre : " <b> 5.7.1. </b> "
 4. **API name**: Nhập `idp-backend-api`.
 5. **Endpoint Type**: Chọn **Regional**.
 
-![Create API Gateway](/images/5-Workshop/5.6-API-Gateway/create-api.png)
+![Create API Gateway](images/5-Workshop/5.6-API-Gateway/create-api.png)
 
 6. Bấm **Create API**.
 
@@ -26,7 +26,7 @@ Hãy làm theo quy trình sau cho điểm cuối (endpoint) đầu tiên:
 3. **Resource Name**: Nhập `get-upload-url` (Hệ thống sẽ tự tạo đường dẫn **./get-upload-url**.). Bấm **Create resource**.
 4. Bấm chọn resource **./get-upload-url**. vừa tạo, sau đó bấm **Create method**.
 
-![API Gateway Method](/images/5-Workshop/5.7-API-Gateway-WAF/api-resource.png)
+![API Gateway Method](images/5-Workshop/5.7-API-Gateway-WAF/api-resource.png)
 
 5. **Method type**: Chọn **GET**.
 6. **Integration type**: Chọn **Lambda function**.
@@ -34,7 +34,7 @@ Hãy làm theo quy trình sau cho điểm cuối (endpoint) đầu tiên:
 8. **Lambda function**: Chọn hàm `idp-api-presign`.
 9. Bấm **Create method**.
 
-![API Gateway Method](/images/5-Workshop/5.7-API-Gateway-WAF/api-method.png)
+![API Gateway Method](images/5-Workshop/5.7-API-Gateway-WAF/api-method.png)
 
 #### Lặp lại cho các endpoint còn lại
 Thực hiện lặp lại quy trình trên để tạo các Resource và Method GET tương ứng:

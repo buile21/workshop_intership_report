@@ -30,11 +30,11 @@ pre: " <b> 1.2. </b> "
 * Formed the habit of systematically tagging resources, which greatly helps in managing AWS costs later on.
 
 ---
-![S3 Bucket Creation](/images/1-Worklog/1.2-Week2/week2-1.png)
+![S3 Bucket Creation](images/1-Worklog/1.2-Week2/week2-1.png)
 <p align="center"><i>Figure 1: Amazon S3 Bucket successfully created with the Block all public access feature enabled.</i></p>
 
-![CLI S3 Copy](/images/1-Worklog/1.2-Week2/week2-2.png)
+![CLI S3 Copy](images/1-Worklog/1.2-Week2/week2-2.png)
 <p align="center"><i>Figure 2: Using the <b>aws s3 cp</b> command to successfully upload a sample document from the local computer to the S3 Bucket.</i></p>
 
-![IAM Role Creation](/images/1-Worklog/1.2-Week2/week2-3.png)
+![IAM Role Creation](images/1-Worklog/1.2-Week2/week2-3.png)
 <p align="center"><i>Figure 3: The IAM interface showing the newly created Role with S3 access permissions successfully attached to the EC2 instance.</i></p>

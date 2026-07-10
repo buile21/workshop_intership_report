@@ -29,11 +29,11 @@ pre: " <b> 1.3. </b> "
 * Hiểu rõ phương thức hoạt động của CloudFront kết hợp OAC để bọc bảo mật cho kho tài liệu S3.
 
 ---
-![Custom VPC Resource Map](/images/1-Worklog/1.3-Week3/week3-1.png)
+![Custom VPC Resource Map](images/1-Worklog/1.3-Week3/week3-1.png)
 <p align="center"><i>Hình 1: Bản đồ tài nguyên mạng (Resource map) hiển thị Custom VPC vừa tạo với Public/Private Subnets và cách điều hướng luồng mạng.</i></p>
 
-![Security Group Inbound Rules](/images/1-Worklog/1.3-Week3/week3-2.png)
+![Security Group Inbound Rules](images/1-Worklog/1.3-Week3/week3-2.png)
 <p align="center"><i>Hình 2: Cấu hình Inbound rules của Security Group được thiết lập nghiêm ngặt, chỉ cho phép cổng SSH (22) từ địa chỉ IP cá nhân.</i></p>
 
-![VPC Route Table](/images/1-Worklog/1.3-Week3/week3-3.png)
+![VPC Route Table](images/1-Worklog/1.3-Week3/week3-3.png)
 <p align="center"><i>Hình 3: Cấu hình Route Table cho Public Subnet, điều hướng luồng traffic ra Internet thành công thông qua Internet Gateway (IGW).</i></p>
