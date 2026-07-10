@@ -30,11 +30,11 @@ pre: " <b> 1.6. </b> "
 * Hiểu cách chia nhỏ một ứng dụng nguyên khối (Monolithic) thành các hàm microservices nhỏ gọn, điều phối nhịp nhàng bằng Step Functions để tránh tình trạng Lambda bị gọi lồng nhau (Anti-pattern).
 
 ---
-![AWS Lambda Function](images/1-Worklog/1.6-Week6/week6-1.png)
+![AWS Lambda Function](/static/images/1-Worklog/1.6-Week6/week6-1.png)
 <p align="center"><i>Hình 1: Giao diện quản lý hàm <b>fcaj-idp-hello-function</b> trên AWS Lambda kèm theo mã nguồn (source code) sẵn sàng để thực thi.</i></p>
 
-![API Gateway Integration](images/1-Worklog/1.6-Week6/week6-2.png)
+![API Gateway Integration](/static/images/1-Worklog/1.6-Week6/week6-2.png)
 <p align="center"><i>Hình 2: Cấu hình tích hợp thành công giữa Amazon API Gateway (phương thức GET) và AWS Lambda để tạo thành một endpoint API hoàn chỉnh.</i></p>
 
-![Step Functions Workflow](images/1-Worklog/1.6-Week6/week6-3.png)
+![Step Functions Workflow](/static/images/1-Worklog/1.6-Week6/week6-3.png)
 <p align="center"><i>Hình 3: Biểu đồ trực quan (Visual Workflow) của một State Machine mô phỏng quy trình xử lý tài liệu trên AWS Step Functions.</i></p>

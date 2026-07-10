@@ -15,7 +15,7 @@ The **idp-ai-worker** function is responsible for asynchronous processing. When 
 4. **Runtime**: Select **Python 3.12**.
 5. **Permissions**: Expand *Change default execution role*, select **Use an existing role**, and choose **idp-lambda-ai-role** from the dropdown list.
 
-![Create Lambda](images/5-Workshop/5.5-Serverless-Lambda/create-worker.png)
+![Create Lambda](/static/images/5-Workshop/5.5-Serverless-Lambda/create-worker.png)
 
 6. Click **Create function**.
 
@@ -26,7 +26,7 @@ Since invoking AI for document extraction consumes more time and resources than 
 3. **Memory**: Change from `128 MB` to `256 MB`.
 4. **Timeout**: Change from `0 min 3 sec` to `1 min 0 sec`.
 
-![Memory and Timeout Config](images/5-Workshop/5.5-Serverless-Lambda/worker-config.png)
+![Memory and Timeout Config](/static/images/5-Workshop/5.5-Serverless-Lambda/worker-config.png)
 
 5. Click **Save**.
 
@@ -36,7 +36,7 @@ Since invoking AI for document extraction consumes more time and resources than 
 3. **SQS queue**: Select the ARN of the `idp-document-queue`.
 4. **Batch size**: Keep the default value of `10`.
 
-![SQS Trigger Config](images/5-Workshop/5.5-Serverless-Lambda/worker-trigger.png)
+![SQS Trigger Config](/static/images/5-Workshop/5.5-Serverless-Lambda/worker-trigger.png)
 
 5. Leave the other options as default and click **Add**.
 

@@ -22,4 +22,4 @@ Trong workshop này, thay vì sử dụng mạng VPC hay môi trường on-premi
 
 * **Giao diện (Frontend):** Một ứng dụng React (SPA) sẽ được xây dựng để xử lý việc tải file lên qua presigned URL và trực quan hóa dữ liệu đã xử lý thông qua các biểu đồ tương tác.
 
-![overview](images/5-Workshop/5.1-Workshop-overview/diagram1.png)
+![overview](/static/images/5-Workshop/5.1-Workshop-overview/diagram1.png)

@@ -18,7 +18,7 @@ pre : " <b> 5.6.1. </b> "
 3. **Name your application**: Enter `idp-react-app`.
 4. Scroll to the bottom and click **Create user pool**.
 
-![Create UserPool](images/5-Workshop/5.6-identity-Cognito/user-pool.png)
+![Create UserPool](/static/images/5-Workshop/5.6-identity-Cognito/user-pool.png)
 
 After creation, copy the `User pool ID` and `Client ID` to paste into the `cognitoConfig.js` configuration file in your React source code.
 
@@ -29,6 +29,6 @@ Since open registration is disabled, you must manually provision accounts for yo
 3. Enter a temporary password.
 4. Check the **Mark email as verified** box to confirm the email is valid.
 
-![Create User](images/5-Workshop/5.6-identity-Cognito/create-user.png)
+![Create User](/static/images/5-Workshop/5.6-identity-Cognito/create-user.png)
 
 5. Click **Create user**. (Upon their first login on the Frontend, the user will be prompted to change this temporary password and provide their full name).
