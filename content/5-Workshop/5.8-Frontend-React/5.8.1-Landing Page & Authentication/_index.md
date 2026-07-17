@@ -10,11 +10,11 @@ Our system opens with a modern Landing Page and a secure user authentication flo
 #### Landing Page Interface
 ![Landing Page Interface](/workshop_intership_report/images/5-Workshop/5.8-Frontend-React/landing-page.png)
 #### Register Interface
-![Landing Page Interface](/workshop_intership_report/images/5-Workshop/5.8-Frontend-React/register.png)
+![Register Interface](/workshop_intership_report/images/5-Workshop/5.8-Frontend-React/register.png)
 #### Email verification Interface
 ![Email verification Interface](/workshop_intership_report/images/5-Workshop/5.8-Frontend-React/email-verification.png)
 #### Login Interface
-![Landing Page Interface](/workshop_intership_report/images/5-Workshop/5.8-Frontend-React/login.png)
+![Login Interface](/workshop_intership_report/images/5-Workshop/5.8-Frontend-React/login.png)
 #### DataUpload Interface
 ![DataUpload Interface](/workshop_intership_report/images/5-Workshop/5.8-Frontend-React/data-upload.png)
 
